@@ -50,11 +50,11 @@ data:
           memory: true
           showLabel: true
     - resources:
-        backend: resources
+        cputemp: true
         expanded: true
         cpu: true
         memory: true
-        network: default
+        network: true
     - search:
         provider: google
         target: _blank
