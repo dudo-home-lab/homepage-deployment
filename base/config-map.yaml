@@ -52,8 +52,6 @@ data:
     - resources:
         cputemp: true
         expanded: true
-        cpu: true
-        memory: true
         network: true
     - search:
         provider: google
