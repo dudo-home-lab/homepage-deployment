@@ -1,3 +1,3 @@
-# Envoy Addon
+# Homepage Deployment
 
-Kubernetes manifests for configuring [Envoy](https://istio.io/latest/docs/ops/deployment/architecture/#envoy).
+Kubernetes manifests for configuring [Homepage](https://gethomepage.dev/).
