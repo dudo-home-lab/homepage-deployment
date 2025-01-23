@@ -16,10 +16,11 @@ rules:
       - get
       - list
   - apiGroups:
-      - extensions
-      - networking.k8s.io
+      - gateway.networking.k8s.io
     resources:
       - gateways
+      - httproutes
+      - grpcroutes
     verbs:
       - get
       - list
