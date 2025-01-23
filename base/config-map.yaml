@@ -39,7 +39,7 @@ data:
   widgets.yaml: |
     - kubernetes:
         cluster:
-          show: true
+          show: false
           cpu: true
           memory: true
           showLabel: true
@@ -50,9 +50,15 @@ data:
           memory: true
           showLabel: true
     - resources:
-        cputemp: true
-        expanded: true
+        label: Network
         network: true
+        expanded: true
+    - resources:
+        label: Temperature
+        cputemp: true
+        tempmin: 0
+        tempmax: 100
+        expanded: true
     - search:
         provider: google
         target: _blank
