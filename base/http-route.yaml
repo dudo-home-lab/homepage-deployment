@@ -4,8 +4,6 @@ kind: HTTPRoute
 metadata:
   name: homepage
   namespace: homepage
-  labels:
-    app.kubernetes.io/name: homepage
   annotations:
     gethomepage.dev/description: Dynamically Detected Homepage
     gethomepage.dev/enabled: "true"
