@@ -21,7 +21,7 @@ spec:
       containers:
         - name: homepage
           imagePullPolicy: Always
-          image: ghcr.io/gethomepage/homepage:pr-4752
+          image: ghcr.io/gethomepage/homepage:dev
           env:
             - name: HOMEPAGE_ALLOWED_HOSTS
               value: www.dudo.dev
