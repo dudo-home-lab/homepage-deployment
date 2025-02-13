@@ -6,37 +6,30 @@ metadata:
   namespace: homepage
   labels:
     app.kubernetes.io/name: homepage
+
 data:
   kubernetes.yaml: |
     mode: cluster
     gateway: true
+
   settings.yaml: ""
-  #settings.yaml: |
-  #  providers:
-  #    longhorn:
-  #      url: https://longhorn.my.network
+
   custom.css: ""
+
   custom.js: ""
+
   bookmarks.yaml: |
     - Developer:
         - Github:
             - abbr: GH
               href: https://github.com/
+
   services.yaml: |
-    - My First Group:
-        - My First Service:
-            href: http://localhost/
-            description: Homepage is awesome
+    - IoT:
+        - RAtGDO:
+            href: http://192.168.4.135/
+            description: Configuration for garage door opener
 
-    - My Second Group:
-        - My Second Service:
-            href: http://localhost/
-            description: Homepage is the best
-
-    - My Third Group:
-        - My Third Service:
-            href: http://localhost/
-            description: Homepage is 😎
   widgets.yaml: |
     - kubernetes:
         cluster:
@@ -63,4 +56,5 @@ data:
     - search:
         provider: google
         target: _blank
+
   docker.yaml: ""
