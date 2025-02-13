@@ -8,7 +8,7 @@ resources:
 patches:
   - target:
       kind: HTTPRoute
-      name: homepage-route
+      name: homepage
     patch: |-
       - op: add
         path: /spec/hostnames/-
