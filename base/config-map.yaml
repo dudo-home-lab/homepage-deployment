@@ -12,7 +12,9 @@ data:
     mode: cluster
     gateway: true
 
-  settings.yaml: ""
+  settings.yaml: |
+    title: Dudo
+    description: Portal for the Home Lab
 
   custom.css: ""
 
