@@ -10,3 +10,13 @@ resources:
   - rbac.yaml
   - service-account.yaml
   - service.yaml
+
+images:
+  - name: homepage
+    newName: ghcr.io/gethomepage/homepage
+    newTag: v1.1.1
+
+configMapGenerator:
+  - name: homepage-config
+    literals:
+      - HOMEPAGE_ALLOWED_HOSTS=www.dudo.dev

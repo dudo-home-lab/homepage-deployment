@@ -19,13 +19,10 @@ spec:
       serviceAccountName: homepage
       containers:
         - name: homepage
-          imagePullPolicy: Always
-          image: ghcr.io/gethomepage/homepage:dev
-          env:
-            - name: HOMEPAGE_ALLOWED_HOSTS
-              value: www.dudo.dev
-            - name: LOG_LEVEL
-              value: debug
+          image: homepage
+          envFrom:
+            - configMapRef:
+                name: homepage-config
           ports:
             - name: http
               containerPort: 3000
