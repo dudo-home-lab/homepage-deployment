@@ -10,6 +10,8 @@ data:
   kubernetes.yaml: |
     mode: cluster
     gateway: true
+    ingress: false
+    traefik: false
 
   settings.yaml: |
     title: Dudo
