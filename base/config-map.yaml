@@ -32,7 +32,7 @@ data:
         - RAtGDO:
             href: http://192.168.4.135/
             description: Configuration for garage door opener
-        - TuringPi
+        - TuringPi:
             href: https://turingpi.local/
             description: Reliable, Scalable Infrastructure for Edge & AI Apps
     - Network
