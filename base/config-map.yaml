@@ -35,10 +35,10 @@ data:
   services.yaml: |
     - IoT:
         - RAtGDO:
-            href: http://192.168.4.135/
+            href: http://garage-door.local/
             description: Configuration for garage door opener
         - TuringPi:
-            href: https://turingpi.local/
+            href: http://turingpi.local/
             description: Reliable, Scalable Infrastructure for Edge & AI Apps
     - Network:
         - Cloudflare:
