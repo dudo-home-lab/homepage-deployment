@@ -24,9 +24,14 @@ data:
   bookmarks.yaml: |
     - Developer:
         - Github:
-            - abbr: GH
-              href: https://github.com/
-
+            - href: https://github.com/dudo
+              description: Developer Platform
+        - Gist:
+            - href: https://gist.github.com/dudo
+              description: Code Snippets
+        - Docker:
+            - href: https://hub.docker.com/repositories/dudo
+              description: Docker Hub
   services.yaml: |
     - IoT:
         - RAtGDO:
