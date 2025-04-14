@@ -35,7 +35,7 @@ data:
         - TuringPi:
             href: https://turingpi.local/
             description: Reliable, Scalable Infrastructure for Edge & AI Apps
-    - Network
+    - Network:
         - Cloudflare:
             href: https://dash.cloudflare.com
             description: Cloudflare Dashboard
