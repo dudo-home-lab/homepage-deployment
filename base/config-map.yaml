@@ -22,8 +22,8 @@ data:
   custom.js: ""
 
   bookmarks.yaml: |
-    - Developer:
-        - Github:
+    - Dudo:
+        - GitHub:
             - href: https://github.com/dudo
               description: Developer Platform
         - Gist:
@@ -32,6 +32,10 @@ data:
         - Docker:
             - href: https://hub.docker.com/repositories/dudo
               description: Docker Hub
+    - Home:
+        - GitHub:
+            - href: https://github.com/dudo-home-lab
+              description: Home Lab GitOps
   services.yaml: |
     - IoT:
         - RAtGDO:
@@ -42,11 +46,11 @@ data:
             description: Reliable, Scalable Infrastructure for Edge & AI Apps
     - Network:
         - Cloudflare:
-            href: https://dash.cloudflare.com
+            href: https://dash.cloudflare.com/
             description: Cloudflare Dashboard
-        - Unifi:
+        - UniFi:
             href: https://unifi.ui.com/
-            description: Unifi Site Manager
+            description: UniFi Site Manager
 
   widgets.yaml: |
     - kubernetes:
