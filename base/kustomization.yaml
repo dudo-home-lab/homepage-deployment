@@ -12,9 +12,8 @@ resources:
   - service.yaml
 
 images:
-  - name: homepage
-    newName: ghcr.io/gethomepage/homepage
-    newTag: v1.1.1
+  - name: ghcr.io/gethomepage/homepage
+    newTag: v1.4.3
 
 configMapGenerator:
   - name: homepage-config
