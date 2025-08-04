@@ -19,7 +19,7 @@ spec:
       serviceAccountName: homepage
       containers:
         - name: homepage
-          image: homepage
+          image: ghcr.io/gethomepage/homepage
           envFrom:
             - configMapRef:
                 name: homepage-config
