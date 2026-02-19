@@ -38,9 +38,6 @@ data:
               description: Home Lab GitOps
   services.yaml: |
     - IoT:
-        - RAtGDO:
-            href: http://garage-door.local/
-            description: Configuration for garage door opener
         - TuringPi:
             href: http://turingpi.local/
             description: Reliable, Scalable Infrastructure for Edge & AI Apps
