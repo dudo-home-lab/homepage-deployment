@@ -11,7 +11,7 @@ resources:
 images:
   - name: ghcr.io/gethomepage/homepage
     newTag: latest
-    digest: sha256:0b596092c0b55fe4c65379a428a3fe90bd192f10d1b07d189a34fe5fabe7eedb
+    digest: sha256:cc84f2f5eb3c7734353701ccbaa24ed02dacb0d119114e50e4251e2005f3990a
 configMapGenerator:
   - name: homepage-config
     literals:
